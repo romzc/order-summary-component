@@ -87,6 +87,8 @@ main .plan-info {
 
     padding: 0.7rem 1rem 0.7rem 1rem;
     border-radius: 0.5rem;
+
+    
 }
 
 .plan-info a {
@@ -152,7 +154,12 @@ button:hover {
 }
 
 
-
+@media (max-width: 450px) {
+    main {
+        width: 18rem;
+        height: auto;
+    }
+}
 
 
 
